@@ -4,7 +4,7 @@
 body {
   margin: 0;
   padding: 0;
-  background: #e5e5e5;
+  background: #fff;
   font-family: "Ubuntu", sans-serif;
 }
 a {
@@ -134,4 +134,76 @@ a {
   color: #b2b2b2;
   margin-top: 0;
   margin-bottom: 0;
+}
+.clients {
+  padding-top: 61px;
+  padding-bottom: 113px;
+}
+.clients-logos {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.clients-logos--1 {
+  margin-bottom: 64px;
+}
+.clients-logos--2 {
+  margin-bottom: 67px;
+  margin-left: 20px;
+}
+.clients-logos--3 {
+  margin-right: 35px;
+}
+.teams {
+  padding: 100px 0;
+}
+.team {
+  display: flex;
+  align-items: center;
+  flex-basis: 33.3333%;
+  margin-bottom: 60px;
+}
+.teams-wrappper {
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+}
+.team__avatar {
+  width: 100px;
+  height: 100px;
+  object-fit: cover;
+  border-radius: 50%;
+  margin-right: 35px;
+}
+.team-text__name {
+  font-style: normal;
+  font-weight: bold;
+  font-size: 28px;
+  line-height: 32px;
+  color: #202020;
+  margin-top: 0;
+  margin-bottom: 11px;
+}
+.team-text__work {
+  font-style: normal;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 16px;
+  color: #b2b2b2;
+}
+.footer {
+  padding: 20px 0;
+  background: #f7f7f7;
+}
+.footer-wrapper {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.footer-social {
+  display: flex;
+  align-items: center;
+}
+.footer-social img {
+  margin-right: 40px;
 }
