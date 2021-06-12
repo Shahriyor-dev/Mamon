@@ -1,0 +1,137 @@
+* {
+  box-sizing: border-box;
+}
+body {
+  margin: 0;
+  padding: 0;
+  background: #e5e5e5;
+  font-family: "Ubuntu", sans-serif;
+}
+a {
+  text-decoration: none;
+}
+.container {
+  max-width: 1190px;
+  margin: auto;
+}
+.header {
+  padding-top: 53px;
+  padding-bottom: 120px;
+}
+.header-wrapper {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.header__list {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  display: flex;
+}
+.header__logo {
+  display: flex;
+  align-items: center;
+}
+.logo__img {
+  margin-right: 25px;
+}
+.logo__name {
+  font-style: normal;
+  font-weight: bold;
+  font-size: 24px;
+  line-height: 28px;
+  color: #202020;
+}
+.header-list__item {
+  margin-left: 37px;
+}
+.header-list__link {
+  font-style: normal;
+  font-weight: bold;
+  font-size: 14px;
+  line-height: 16px;
+  color: #202020;
+}
+.accent {
+  background: #5528ff;
+  color: #fff;
+}
+.header-list__link.accent {
+  padding: 2.5px 14px 4.5px;
+  border-radius: 5px;
+}
+.header-bottom {
+  padding-top: 117px;
+}
+.header-bottom__title {
+  margin-top: 0;
+  margin-bottom: 35px;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 57px;
+  line-height: 65px;
+  color: #202020;
+}
+.header-bottom__description {
+  max-width: 740px;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 32px;
+  line-height: 51px;
+  color: #4f4f4f;
+  margin-bottom: 85px;
+}
+.header-bottom__link {
+  font-style: normal;
+  font-weight: normal;
+  font-size: 24px;
+  line-height: 28px;
+  color: #ffffff;
+}
+.header-bottom__link.accent {
+  padding: 16px 58px 11px;
+  border-radius: 10px;
+}
+.services {
+  padding: 109px 0 111px;
+}
+.services-wrapper {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  align-items: center;
+}
+.services-item {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  flex-basis: 39%;
+  margin-bottom: 82px;
+}
+.services-item__img {
+  position: absolute;
+  top: 25%;
+}
+.services-item__description,
+.services-item__name {
+  padding-left: 123px;
+}
+.services-item__name {
+  font-style: normal;
+  font-weight: normal;
+  font-size: 28px;
+  line-height: 32px;
+  color: #000000;
+  margin-top: 0;
+  margin-bottom: 17px;
+}
+.services-item__description {
+  font-style: normal;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 16px;
+  color: #b2b2b2;
+  margin-top: 0;
+  margin-bottom: 0;
+}
